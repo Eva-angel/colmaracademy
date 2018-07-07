@@ -1,0 +1,464 @@
+/* universal style */
+* {
+	font-family:"Helvetica" "Times" "garamond" "serif";
+	font-size: 16px;
+	line-height: 1.4;
+	margin: 0px;
+}
+
+div {
+	display: block;
+}
+
+/* header */
+
+header {
+}
+
+nav {
+	display: flex;
+	background-color: white;
+	align-items: center;
+	flex-grow: 1;
+	z-index: 1;
+	justify-content: space-between;
+	height: 64px;
+	margin-left: 2rem;
+	margin-right: 1rem;
+
+	
+}
+.container {
+	width: 100%;
+	margin: auto;
+}
+
+.menu-icon {
+	display: none;
+}
+
+.icon {
+	display: flex;
+	flex-grow: 1;
+	
+}
+
+.title {
+	font-weight: bold;
+}
+
+logo {
+	height: 2.5rem;
+}
+
+nav ul li {
+	display: inline;
+	padding-left: 20px;
+	
+}
+
+ul li a {
+	text-decoration: none;
+}
+
+.menu {
+	margin-right: 2rem;
+	padding-left: 1rem;
+}
+
+/* banner */
+
+.banner {
+	display: flex;
+	background-color: #d3d3d3;
+	width: 100%;
+	height: 500px;
+}
+
+.banner-image {
+	width: 60%;
+	margin: 32px 24px;
+}
+
+.banner-header {
+	width: 40%;
+	padding: 10rem 10rem 10rem 0rem;
+}
+.banner-header h1 {
+	font-family: Helvetica;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.mobile {
+	display: none;
+}
+
+.banner-header p {
+	font-size: ;
+}
+
+a:visited {
+	color: green;
+	transition: all, 1s, linear, 0.5s;
+}
+
+.button {
+	display: block;
+	text-align: center;
+	background-color: #696969;
+	padding: 8px 0px;
+	border-radius: 10px;
+	color: white;
+	font-family: "Helvetica" "Times" "serif";
+	font-weight: 1000;
+	font-size: 2rem;
+}
+
+.button:hover {
+	color: rgb(200, 0, 0);
+	background-color: rgb(100, 150, 255);
+	transition: color, 3s, ease-in, 0.5s;
+}
+
+/* main content */
+
+.main-content {
+	display: flex;
+	background-color: #f5f5f5;
+	width: 100%;
+	height: auto;
+}
+
+.mobile {
+	display: none;
+}
+
+.description {
+	width: 810px;
+	padding-top: 32px;
+}
+
+.description-image{
+	width: 750px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.main-info {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.updates {
+	width: 540px;
+	margin-right: 0px;
+	padding-left: px;
+}
+
+.first-update {
+	display: flex;
+	border: 1px solid gainsboro;
+	height: 25%;
+}
+
+.second-update {
+	display: flex;
+	border: 1px solid gainsboro;
+	height: 25%;
+}
+
+.third-update {
+	display: flex;
+	border: 1px solid gainsboro;
+	height: 25%;
+	background-color: #696969;
+}
+
+.information:hover {
+	background-color: #696969;
+	color: white;
+	transition: color, 2s, ease-out, 1s;
+}
+
+.desktop {
+	height: auto;
+	width: 35%;
+	padding: 16px;
+}
+
+.info {
+	padding-top:;
+}
+
+.updates a {
+	color: blue;
+}
+
+.info p {
+	padding: 8px 0px;
+}
+
+/* learning */
+
+.mobile-learning {
+	display: none;
+}
+
+.learn-container {
+	background-color: #d3d3d3;
+	width: 100%;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.learn-container h1 {
+	margin-top: 0px;
+	padding-top: 32px;
+	font-family: Helvetica;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+    text-shadow: 1px 1px 3px gray;	
+}
+  
+.learning {
+	display: flex;
+	padding-bottom: 32px;
+	justify-content: space-between;
+	padding-top: 32px;
+	justify-content: center;
+	margin-top: 0px;
+} 
+
+.departments {
+	display: flex;
+	width: 80%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	
+}
+
+.courses {
+	background-color: white;
+    width: 32%;
+    margin-bottom: 20px;
+	height: 25rem;
+}
+
+.course-image img {
+	width: 100%;
+}
+
+/* display section */
+
+.display-section {
+	width: 100%;
+	margin-top: 0px;
+}
+
+.display-section h2 {
+	 margin-top: 0px;
+	padding-top: 32px;
+	font-family: Helvetica;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 1px 3px gray;
+}
+
+.display {
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+}
+
+.display-content {
+	width: 60%;
+	padding: 32px 24px;
+}
+
+.display-content video {
+	width: 100%;
+}
+
+.display-content h2 {
+	text-align: left;
+	font-size: 2rem;
+	font-family: "san serif";
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #696969;
+}
+
+.display-content p {
+	font-family: Helvetica;
+	font-size: 0.9rem;
+	font-weight: lighter;
+}
+
+.researches {
+	width: 40%;
+	padding-top: 32px;
+}
+
+.research {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	flex-direction: row;
+	height: 200px;
+	margin: auto;
+}
+
+.research img {
+	width: 35%;
+	height: auto;
+	padding: 16px 16px 16px 0px;
+}
+.first {
+	background-color: #d3d3d3;
+	padding-left: 16px;
+}
+
+.search-info {
+	display: block;
+	align-items: center;
+	padding-top: 2rem;
+}
+
+.search-info p {
+	font-size: 0.9rem;
+	opacity: 0.5;
+}
+
+/* footer */
+
+footer {
+	display: flex;
+	border-top: 1px solid  #d3d3d3;
+	width: 100%;
+	justify-content: space-between;
+	padding-left: 2rem;
+	padding-top: 1rem;
+	align-items: center;
+	margin: auto;
+}
+
+.footer-title {
+	display: flex;
+	flex-grow: 20;
+}
+
+nav {
+	justify-content: left;
+
+}
+
+/* media queries */
+
+@media only screen and (max-width: 470px) {
+	/*header*/
+	.menu {
+		display: none;
+	}
+	.icon {
+		display: none;
+	}
+	.menu-icon {
+		display: flex;
+		justify-content: space-between;
+		width: 470px;
+		flex-direction: row;
+	}
+	.menu-icon img {
+		display: flex;
+		flex-grow: 1;
+	}
+	/*banner*/
+	.banner {
+		display: block;
+		width: 470px;
+		height: 700px;
+	}
+	.banner-image {
+		width: 100%;
+		margin: 0px;
+	}
+	.banner-header {
+		width: 400px; 
+	    padding: 2.5rem 1rem;
+	}
+	.banner-header p {
+		opacity: 0.7;
+	}
+	.banner-header h1 {
+		text-shadow: 1px 1px 4px white;
+		padding-bottom: 32px;
+	}
+	.button {
+		margin-top: 32px;
+	}
+	/*main-content*/
+	
+	.description {
+		display: none;
+	}
+	.updates {
+		display: block;
+		;
+	}
+	.information {
+		display: block;
+		height: auto;
+		background-color: #f5f5f5;
+	}
+	.desktop {
+		display: none;
+	}
+	.mobile {
+		display: block;
+		width: 100%;
+		padding: 16px;
+	}
+	.info {
+		padding: 0px 16px 64px 16px;
+	}
+	.learn-container {
+		background-color: #f5f5f5;
+	}
+	.learning {
+		display: none;
+	}
+	.mobile-learning {
+		display: block;
+		flex-direction: column;
+		padding-top: 16p;
+		padding-bottom: 32px;
+	}
+	.mobile-learning h2 {
+		margin: 8px;
+		background-color: #d3d3d3;
+		text-align: left;
+	    padding: 16px 0px 24px 16px;
+	}
+	/*display-section*/
+	.researches {
+		display: none;
+	}
+	.display-header {
+		display: none;
+	}
+	.display-content{
+		width: 470px;
+	}
+	.display-content video {
+		width: 100%;
+	}
+	/*footer*/
+	nav {
+		display: none;
+	}
+	
+}
